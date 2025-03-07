@@ -15,13 +15,13 @@ export default function NavBar() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+    <nav className="fixed  top-0 left-0 w-full bg-white shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Brand / Logo */}
         <Link href="/">
           <Image
             className="text-xl font-bold text-emerald-700 cursor-pointer"
-            src="/logo.png" // Ensure this path is correct or replace with your logo path
+            src="/logo.png" 
             width={60}
             height={60}
             alt="Logo"
